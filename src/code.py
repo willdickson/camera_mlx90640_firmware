@@ -20,8 +20,8 @@ while True:
         continue
 
     msg = messenger.update()
-
     if msg:
+        frame = [round(x,1) for x in frame]
         rsp = {'frame': frame}
         messenger.send(rsp)
 

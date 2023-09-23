@@ -1,6 +1,5 @@
 import sys
 import json
-import usb_cdc
 import supervisor
 
 class Messenger:
